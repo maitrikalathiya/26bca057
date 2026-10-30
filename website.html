@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title> Maitri Kalthiya  | Personal Portfolio</title>
+
+    <style>
+        /* General CSS */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f7fc;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        /* Header */
+        header {
+            background: linear-gradient(135deg, #142850, #2563eb);
+            color: white;
+            text-align: center;
+            padding: 50px 20px;
+        }
+
+        header h1 {
+            font-size: 36px;
+        }
+
+        header p {
+            font-size: 18px;
+            margin-top: 10px;
+        }
+
+        /* Navigation */
+        nav {
+            background-color: #142850;
+            text-align: center;
+            padding: 15px;
+            position: sticky;
+            top: 0;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 12px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #93c5fd;
+        }
+
+        /* Main Content */
+        main {
+            width: 85%;
+            max-width: 1100px;
+            margin: 30px auto;
+        }
+
+        section {
+            background-color: white;
+            padding: 30px;
+            margin-bottom: 25px;
+            border-radius: 12px;
+            box-shadow: 0 3px 12px rgba(0,0,0,0.08);
+            scroll-margin-top: 75px;
+        }
+
+        section h2 {
+            color: #2563eb;
+            border-bottom: 2px solid #dbeafe;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+
+        /* Home */
+        .home {
+            text-align: center;
+        }
+
+        .profile {
+            width: 160px;
+            height: 160px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 5px solid #2563eb;
+            margin: 20px;
+        }
+
+        .home p {
+            margin: 15px 0;
+        }
+
+        .btn {
+            display: inline-block;
+            background-color: #2563eb;
+            color: white;
+            padding: 10px 25px;
+            border-radius: 6px;
+            text-decoration: none;
+            margin-top: 15px;
+        }
+
+        .btn:hover {
+            background-color: #142850;
+        }
+
+        /* Education */
+        article {
+            margin-bottom: 15px;
+        }
+
+        article h3 {
+            color: #142850;
+            margin-bottom: 8px;
+        }
+
+        /* Lists */
+        ul {
+            padding-left: 25px;
+        }
+
+        li {
+            margin: 8px 0;
+        }
+
+        /* Family */
+        .family-img {
+            width: 100%;
+            max-width: 400px;
+            display: block;
+            margin: 20px auto;
+            border-radius: 10px;
+        }
+
+        /* Quotes */
+        blockquote {
+            background-color: #eff6ff;
+            border-left: 5px solid #2563eb;
+            padding: 18px;
+            margin: 15px 0;
+            font-style: italic;
+        }
+
+        cite {
+            display: block;
+            text-align: right;
+            margin-top: 8px;
+        }
+
+        /* Contact */
+        #contact a {
+            color: #2563eb;
+            text-decoration: none;
+        }
+
+        #contact a:hover {
+            text-decoration: underline;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #142850;
+            color: white;
+            text-align: center;
+            padding: 25px;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 26px;
+            }
+
+            nav a {
+                display: inline-block;
+                margin: 5px;
+                font-size: 13px;
+            }
+
+            main {
+                width: 93%;
+            }
+
+            section {
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>My Personal Portfolio</h1>
+        <p>Welcome to My World</p>
+        <p>Learning Today, Leading Tomorrow</p>
+    </header>
+
+    <!-- Navigation -->
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#personal">Personal Info</a>
+        <a href="#education">Education</a>
+        <a href="#skills">Skills</a>
+        <a href="#hobbies">Hobbies</a>
+        <a href="#family">Family</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <main>
+
+        <!-- Home Section -->
+        <section id="home" class="home">
+            <h2>Home</h2>
+
+            <img src="C:\Users\MAITRI\Downloads\Me.jpeg"
+                 class="profile">
+
+            <h3>Hello! I am Maitri Kalthiya</h3>
+
+            <p>
+                I am a BCA student passionate about programming,
+                technology and learning new skills. I enjoy
+                exploring new ideas and developing my technical
+                knowledge. My dream is to become a successful
+                Ethical Hacker.
+            </p>
+
+            <a href="#personal" class="btn">Know More About Me</a>
+        </section>
+
+        <!-- Personal Information -->
+        <section id="personal">
+            <h2>Personal Information</h2>
+
+            <p><strong>Name:</strong> Maitri Kalthiya</p>
+            <p><strong>Student ID:</strong> 26BCA057</p>
+            <p><strong>Course:</strong> Bachelor of Computer Applications</p>
+            <p><strong>College:</strong> CMPICA, CHARUSAT</p>
+            <p><strong>Career Goal:</strong> Ethical Hacker</p>
+            <p><strong>Location:</strong>Surat, Gujarat, India</p>
+        </section>
+
+        <!-- Education -->
+        <section id="education">
+            <h2>My Education</h2>
+
+            <article>
+                <h3>Bachelor of Computer Applications (BCA)</h3>
+
+                <p>
+                    I am currently pursuing BCA at Smt. Chandaben
+                    Mohanbhai Patel Institute of Computer Applications
+                    (CMPICA), CHARUSAT.
+                </p>
+            </article>
+
+            <article>
+                <h3>My Learning Goals</h3>
+
+                <p>
+                    I want to improve my programming knowledge,
+                    communication skills and technical abilities.
+                    I am interested in learning Ethical hacking
+                    and modern technologies.
+                </p>
+            </article>
+        </section>
+
+        <!-- Skills -->
+        <section id="skills">
+            <h2>My Technical Skills</h2>
+
+            <ul>
+                <li>HTML and CSS</li>
+                <li>C Programming</li>
+                <li>C# Programming</li>
+                <li>Java</li>
+                <li>Python Basics</li>
+                <li>Database Management</li>
+                <li>Web Development</li>
+            </ul>
+        </section>
+
+        <!-- Hobbies -->
+        <section id="hobbies">
+            <h2>My Hobbies and Interests</h2>
+
+            <ul>
+                <li>Learning New Technologies</li>
+                <li>Programming and Coding</li>
+                <li>Exploring Computers and Software</li>
+                <li>Listening to Music</li>
+                <li>Spending Time with Family</li>
+            </ul>
+
+            <p>
+                My hobbies help me improve my creativity,
+                gain knowledge and enjoy my free time.
+            </p>
+        </section>
+
+        <!-- Family -->
+        <section id="family">
+            <h2>My Family</h2>
+
+            <img src="C:\Users\MAITRI\Downloads\WhatsApp Image 2026-10-29 at 2.57.49 PM.jpeg"
+                 class="family-img">
+
+            <p>
+                My family is an important part of my life.
+                They always support and motivate me to achieve
+                my goals. Their love and guidance inspire me
+                to work hard and become a better person.
+            </p>
+        </section>
+
+        <!-- Favourite Quotes -->
+        <section id="quotes">
+            <h2>My Favourite Quotes</h2>
+
+            <blockquote>
+                "The future depends on what you do today."
+                <cite>- Mahatma Gandhi</cite>
+            </blockquote>
+
+            <blockquote>
+                "It always seems impossible until it's done."
+                <cite>- Nelson Mandela</cite>
+            </blockquote>
+        </section>
+
+        <!-- Contact -->
+        <section id="contact">
+            <h2>Contact Me</h2>
+
+            <p><strong>Name:</strong> Maitri Kalthiya</p>
+
+            <p>
+                <strong>Email:</strong>
+                <a href="26bca057@charusat.edu.in">
+                   26bca057@charusat.edu.in
+                </a>
+            </p>
+
+            <p>
+                <strong>College Website:</strong>
+                <a href="https://www.charusat.ac.in/"
+                   target="_blank">
+                    CHARUSAT
+                </a>
+            </p>
+
+            <p><strong>Location:</strong> surat,Gujarat, India</p>
+
+            <p>
+                Thank you for visiting my personal portfolio.
+                Feel free to contact me.
+            </p>
+        </section>
+
+    </main>
+
+</body>
+</html>
